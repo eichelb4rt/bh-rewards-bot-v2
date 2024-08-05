@@ -1,0 +1,2 @@
+create table users(id int, name text, auth_token text);
+create table codes(owned_by int, reward_name text, code text, redeemed int);
